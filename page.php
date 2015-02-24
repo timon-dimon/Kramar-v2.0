@@ -23,7 +23,7 @@ get_header(); ?>
 				<h1 class="single-header"><?php the_title(); ?></h1>
 			
 				<?php the_content(' ', get_post_format()); ?>
-				<?php comments_template( '', true ); ?>
+				<?php comments_template( '', false ); ?>
 			<?php endwhile; // end of the loop. ?>
 		</div>
 		<!-- //MAIN BLOCK -->

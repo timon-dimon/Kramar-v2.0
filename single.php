@@ -108,10 +108,8 @@ get_header(); ?>
 	<!-- SECOND SCREEN -->
 	<div class="row-fluid">
 		<div class="maincolumn column1">
-			<h4 class="block-title2">
-				<span style="background-color:#ff0000;color:#fff">Комментарии</span>
-			</h4>
 			<?php comments_template( '', true ); ?>
+			<br/>&nbsp;
 		</div>
 		<div class="sidebar">
 			<!-- SIDEBAR -->
