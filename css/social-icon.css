@@ -1,0 +1,130 @@
+.social_type,.social_type .social_button a,.social_type .social_info,
+	.social_type24,.social_type24 .social_button a,.social_type24 .social_info
+	{font-size:14px;font-weight:400;margin-bottom:5px}
+	.social_type .social-icon-wrap,
+	.social_type24 .social-icon-wrap24{display:inline-block;zoom:1;-webkit-transition:opacity 0.4s;-moz-transition:opacity 0.4s;-o-transition:opacity 0.4s;transition:opacity 0.4s}
+	.social_type .social-icon-wrap{margin:0px 7px 24px 7px}
+		.social-icon-wrap:hover,
+		.social-icon-wrap24:hover{opacity:0.8}
+		.social-s1-24,.social-s1-32{background-repeat:no-repeat;display:block}
+		.social-s1-32{background-image:url('../img/social-32.png');width:32px;height:32px}
+		.social-s1-24{background-image:url('../img/social-24.png');width:24px;height:24px}
+		.social_type .social_info,
+		.social_type24 .social_info{display:inline-block;position:relative;top:-11px;margin-left:5px}
+		.social_type .social_button,
+		.social_type24 .social_button{float:right;position:relative;top:5px}
+		.social_type .social_button a,
+		.social_type24 .social_button a{background-color:#4db2ec;padding:6px 12px 7px 12px;color:white;text-decoration:none}
+		.social_type .social_button a:hover,
+		.social_type24 .social_button a:hover{opacity:0.8;transition:opacity 0.4s ease 0s;text-decoration:none !important}
+
+		/* 24px social sprite */
+		.social_type24{float:right;margin:0;margin-top:18px}
+		.social_type24 .social-icon-wrap24{margin:0 7px 0 7px}
+		
+		.s-s-24-addthis{background-position: 0 0}
+		.s-s-24-behance{background-position:-16px 0}
+		.s-s-24-blogger{background-position:-48px 0}
+		.s-s-24-delicious{background-position:-80px 0}
+		.s-s-24-deviantart{background-position:-112px 0}
+		.s-s-24-digg{background-position:-144px 0}
+		.s-s-24-dopplr{background-position:-176px 0}
+		.s-s-24-dribbble{background-position: 0 -16px}
+		.s-s-24-evernote{background-position:-16px -16px}
+		.s-s-24-facebook{background-position:-48px -24px}
+		.s-s-24-flickr{background-position:-80px -16px}
+		.s-s-24-forrst{background-position:-112px -16px}
+		.s-s-24-github{background-position:-144px -16px}
+		.s-s-24-google{background-position:-176px -16px}
+		.s-s-24-googledrive{background-position: 0 -48px}
+		.s-s-24-googlemaps{background-position:-16px -48px}
+		.s-s-24-googleplus{background-position:-48px -48px}
+		.s-s-24-grooveshark{background-position:-80px -48px}
+		.s-s-24-html5{background-position:-112px -48px}
+		.s-s-24-instagram{background-position:-120px -48px}
+		.s-s-24-lastfm{background-position:-176px -48px}
+		.s-s-24-linkedin{background-position: 0 -80px}
+		.s-s-24-mail{background-position:-16px -80px}
+		.s-s-24-myspace{background-position:-48px -80px}
+		.s-s-24-path{background-position:-96px -96px}
+		.s-s-24-paypal{background-position:-128px -96px}
+		.s-s-24-picasa{background-position:-160px -96px}
+		.s-s-24-pinterest{background-position:-192px -96px}
+		.s-s-24-posterous{background-position: 0 -128px}
+		.s-s-24-reddit{background-position:-16px -128px}
+		.s-s-24-rss{background-position:-64px -128px}
+		.s-s-24-sharethis{background-position:-96px -128px}
+		.s-s-24-skype{background-position:-128px -128px}
+		.s-s-24-slashdot{background-position:-160px -128px}
+		.s-s-24-soundcloud{background-position:-192px -128px}
+		.s-s-24-spotify{background-position: 0 -160px}
+		.s-s-24-stackoverflow{background-position:-16px -160px}
+		.s-s-24-steam{background-position:-64px -160px}
+		.s-s-24-stumbleUpon{background-position:-96px -160px}
+		.s-s-24-tehnorati{background-position:-128px -160px}
+		.s-s-24-tumblr{background-position:-160px -160px}
+		.s-s-24-twitter{background-position:-144px -120px}
+		.s-s-24-viddler{background-position: 0 -192px}
+		.s-s-24-vimeo{background-position:-16px -192px}
+		.s-s-24-virb{background-position:-64px -192px}
+		.s-s-24-windows{background-position:-96px -192px}
+		.s-s-24-woordpress{background-position:-128px -192px}
+		.s-s-24-yahoo{background-position:-160px -192px}
+		.s-s-24-youtube{background-position:-144px -144px}
+		.s-s-24-zerply{background-position:-224px 0}
+		.s-s-24-foursquare{background-position:-169px -24px}
+		/* //24px social sprite */
+
+		/* 32px social sprite */
+		.s-s-32-addthis{background-position: 0 0}
+		.s-s-32-behance{background-position:-32px 0}
+		.s-s-32-blogger{background-position:-64px 0}
+		.s-s-32-delicious{background-position:-96px 0}
+		.s-s-32-deviantart{background-position:-128px 0}
+		.s-s-32-digg{background-position:-160px 0}
+		.s-s-32-dopplr{background-position:-192px 0}
+		.s-s-32-dribbble{background-position: 0 -32px}
+		.s-s-32-evernote{background-position:-32px -32px}
+		.s-s-32-facebook{background-position:-64px -32px}
+		.s-s-32-flickr{background-position:-96px -32px}
+		.s-s-32-forrst{background-position:-128px -32px}
+		.s-s-32-github{background-position:-160px -32px}
+		.s-s-32-google{background-position:-192px -32px}
+		.s-s-32-googledrive{background-position: 0 -64px}
+		.s-s-32-googlemaps{background-position:-32px -64px}
+		.s-s-32-googleplus{background-position:-64px -64px}
+		.s-s-32-grooveshark{background-position:-96px -64px}
+		.s-s-32-html5{background-position:-128px -64px}
+		.s-s-32-instagram{background-position:-160px -64px}
+		.s-s-32-lastfm{background-position:-192px -64px}
+		.s-s-32-linkedin{background-position: 0 -96px}
+		.s-s-32-mail{background-position:-32px -96px}
+		.s-s-32-myspace{background-position:-64px -96px}
+		.s-s-32-path{background-position:-96px -96px}
+		.s-s-32-paypal{background-position:-128px -96px}
+		.s-s-32-picasa{background-position:-160px -96px}
+		.s-s-32-pinterest{background-position:-192px -96px}
+		.s-s-32-posterous{background-position: 0 -128px}
+		.s-s-32-reddit{background-position:-32px -128px}
+		.s-s-32-rss{background-position:-64px -128px}
+		.s-s-32-sharethis{background-position:-96px -128px}
+		.s-s-32-skype{background-position:-128px -128px}
+		.s-s-32-slashdot{background-position:-160px -128px}
+		.s-s-32-soundcloud{background-position:-192px -128px}
+		.s-s-32-spotify{background-position: 0 -160px}
+		.s-s-32-stackoverflow{background-position:-32px -160px}
+		.s-s-32-steam{background-position:-64px -160px}
+		.s-s-32-stumbleUpon{background-position:-96px -160px}
+		.s-s-32-tehnorati{background-position:-128px -160px}
+		.s-s-32-tumblr{background-position:-160px -160px}
+		.s-s-32-twitter{background-position:-192px -160px}
+		.s-s-32-viddler{background-position: 0 -192px}
+		.s-s-32-vimeo{background-position:-32px -192px}
+		.s-s-32-virb{background-position:-64px -192px}
+		.s-s-32-windows{background-position:-96px -192px}
+		.s-s-32-woordpress{background-position:-128px -192px}
+		.s-s-32-yahoo{background-position:-160px -192px}
+		.s-s-32-youtube{background-position:-192px -192px}
+		.s-s-32-zerply{background-position:-224px 0}
+		.s-s-32-foursquare{background-position:-224px -32px}
+		/* //32px social sprite */

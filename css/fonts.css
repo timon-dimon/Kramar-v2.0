@@ -1,0 +1,105 @@
+@import url('http://fonts.googleapis.com/css?family=PT+Sans:400,700,400italic&subset=cyrillic,latin');
+	/*
+	TITLE
+	*/
+@font-face {
+	font-family:'Poiret One';
+	src:url('../fonts/poiret/poiret_one_regular.eot');
+	src:url('../fonts/poiret/poiret_one_regular.eot?#iefix') format('embedded-opentype'),
+			url('../fonts/poiret/poiret_one_regular.woff') format('woff'),
+			url('../fonts/poiret/poiret_one_regular.ttf') format('truetype'),
+			url('../fonts/poiret/poiret_one_regular.svg') format('svg');
+	font-weight:normal;
+	font-style:normal
+	}
+	/*
+	DESCRIPTION
+	*/
+@font-face {
+	font-family:'latothin';
+	src:url('../fonts/lato/lato-thin.eot');
+	src:url('../fonts/lato/lato-thin.eot?#iefix') format('embedded-opentype'),
+			url('../fonts/lato/lato-thin.woff') format('woff'),
+			url('../fonts/lato/lato-thin.ttf') format('truetype');
+	font-weight:normal;
+	font-style:normal
+	}
+@font-face {
+	font-family:'latothin_italic';
+	src:url('../fonts/lato/lato-thinitalic.eot');
+	src:url('../fonts/lato/lato-thinitalic.eot?#iefix') format('embedded-opentype'),
+			url('../fonts/lato/lato-thinitalic.woff') format('woff'),
+			url('../fonts/lato/lato-thinitalic.ttf') format('truetype');
+	font-weight:normal;
+	font-style:normal
+	}
+	/*
+	NAVIGATIONS
+	*/
+@font-face {
+	font-family:'Montserrat';
+	src:url('../fonts/montserrat/montserrat-regular.eot');
+	src:url('../fonts/montserrat/montserrat-regular.eot?#iefix') format('embedded-opentype'),
+			url('../fonts/montserrat/montserrat-regular.woff') format('woff'),
+			url('../fonts/montserrat/montserrat-regular.ttf') format('truetype'),
+			url('../fonts/montserrat/montserrat-regular.svg') format('svg');
+	font-weight:normal;
+	font-style:normal
+	}
+@font-face {
+	font-family:'Montserrat';
+	src:url('../fonts/montserrat/montserrat-bold.eot');
+	src:url('../fonts/montserrat/montserrat-bold.eot?#iefix') format('embedded-opentype'),
+			url('../fonts/montserrat/montserrat-bold.woff') format('woff'),
+			url('../fonts/montserrat/montserrat-bold.ttf') format('truetype'),
+			url('../fonts/montserrat/montserrat-bold.svg') format('svg');
+	font-weight:bold;
+	font-style:normal
+	}
+	/*
+	BLOCK-TITLE
+	*/
+@font-face {
+	font-family:'Roboto Condensed';
+	src:url('../fonts/roboto/robotocondensed-light.eot');
+	src:url('../fonts/roboto/robotocondensed-light.eot?#iefix') format('embedded-opentype'),
+			url('../fonts/roboto/robotocondensed-light.woff') format('woff'),
+			url('../fonts/roboto/robotocondensed-light.ttf') format('truetype');
+	font-weight:normal;
+	font-style:normal
+	}
+@font-face {
+	font-family:'Ubuntu';
+	src:url('../fonts/ubuntu/ubuntu-r.eot');
+	src:url('../fonts/ubuntu/ubuntu-r.eot?#iefix') format('embedded-opentype'),
+			url('../fonts/ubuntu/ubuntu-r.woff') format('woff'),
+			url('../fonts/ubuntu/ubuntu-r.ttf') format('truetype');
+	font-weight:normal;
+	font-style:normal
+	}
+	/*
+	SEARCH FORM
+	*/
+@font-face{
+	font-family:'caviar_dreamsregular';
+  src:url('../fonts/caviardreams/caviardreams-webfont.eot');
+  src:url('../fonts/caviardreams/caviardreams-webfont.eot?#iefix') format('embedded-opentype'),
+      url('../fonts/caviardreams/caviardreams-webfont.woff') format('woff'),
+      url('../fonts/caviardreams/caviardreams-webfont.ttf') format('truetype'),
+      url('../fonts/caviardreams/caviardreams-webfont.svg#caviar_dreamsregular') format('svg');
+  font-weight:normal;
+	font-style:normal
+}
+	/*
+	FOOTER
+	*/
+@font-face {
+  font-family:'FontAwesome';
+  src:url('../fonts/fontawesome/fontawesome-webfont.eot?v=4.2.0');
+  src:url('../fonts/fontawesome/fontawesome-webfont.eot?#iefix&v=4.2.0') format('embedded-opentype'),
+  		url('../fonts/fontawesome/fontawesome-webfont.woff?v=4.2.0') format('woff'),
+  		url('../fonts/fontawesome/fontawesome-webfont.ttf?v=4.2.0') format('truetype'),
+  		url('../fonts/fontawesome/fontawesome-webfont.svg?v=4.2.0#fontawesomeregular') format('svg');
+  font-weight:normal;
+  font-style:normal
+	}

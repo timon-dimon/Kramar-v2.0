@@ -1,0 +1,267 @@
+/*
+Theme Name: Kramar Motorsport
+Theme URI: http://www.kramar-motorsport.ru
+Description: Theme for Kramar-Motorsport.ru
+
+Author: Dumchikov Dmitry
+Author URI: https://www.facebook.com/dima.dumchikov
+Version: 2.0
+Tags: auto, car, black, rally
+*/
+
+@charset "utf-8";
+
+@import 'css/reset.css';
+@import 'css/fonts.css';
+@import 'css/social-icon.css';
+@import 'css/grid.css';
+
+@import 'css/slider.css';
+@import 'css/menu.css';
+
+/*********************
+STYLE
+*********************/
+*{font-family:"Helvetica Neue",Arial,Helvetica,sans-serif;font-size:15px;font-weight:300;line-height:1.625}
+::selection{background:#ED1C24}
+.container:before,.container:after{content:" ";display:table}
+.container:after{clear:both}
+*,*:before,*:after{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}
+::-moz-selection{color:#999}
+a{color:#aaa;transition:ease .3s;-webkit-transition:ease .3s;-moz-transition:ease .3s;-o-transition:ease .3s;-ms-transition:ease .3s}
+
+html,body{margin:0 auto;padding:0;height:100%}
+body{-webkit-text-size-adjust:none;overflow-x:hidden;overflow-y:scroll;background-color:#000;text-rendering:optimizelegibility}
+
+/*********************
+TEMPLATE
+*********************/
+	.inner-wrap,
+	#inner-wrap,
+	#footer{background-color:#000}
+	
+	/* Fonts */
+	#top-nav ul li a,
+	.phone-head,
+	.phone-head-800,
+	.copyright,
+	.address-list li,
+	.address-list li a,
+	.social_type,
+	.social_type .social_button a,
+	.social_type .social_info,
+	.social_type24,
+	.social_type24 .social_button a,
+	.social_type24 .social_info,
+	.ei-slider-large li h1,
+	.block-title,
+	.block-title2,
+	.entry-title,
+	.block-title span,
+	.block-title2 span,
+	h1.single-header,
+	.nav-previous a,
+	.nav-next a,
+	.side-service p,
+	.side-service li,
+	#service h4{font-family:'Roboto Condensed',Arial,Helvetica,sans-serif}
+	
+	.td-post-text-excerpt p{font-family:'Helvetica Neue',Arial,Helvetica,sans-serif}
+	
+	.fa{font-family:'FontAwesome';}
+	
+	.block-child-cats a{color:#999;font-family:'Ubuntu',Arial,Helvetica,sans-serif}
+	
+	#content,
+	h1.single-header,
+	#content p,
+	#content strong,
+	#content li,
+	#content b,
+	#content label,
+	#content p em{font-family:'PT Sans',Arial,Helvetica,sans-serif}
+	
+	.format-image .post-overlay-title h1{font-family:'Poiret One',Arial,Helvetica,sans-serif}
+	/* //Fonts */
+
+/* FOOTER */
+	#menuLogo{background-color:#343434;margin-bottom:20px}
+	#menuLogo ul{height:62px;overflow:hidden;margin:0 auto}
+	#menuLogo ul li{float:left;margin:12px 0 7px 12px;width:auto}
+	#menuLogo ul li img{opacity:0.4;height:36px}
+	#menuLogo ul li img:hover{opacity:1}
+	
+	.footer_column-left,.footer_column-right{width:46%;float:left;margin:0 2%}
+	.footer-logo-wrap{padding:10px 0 27px 0}
+		.copyright{text-align:left}
+	
+	.address-list{line-height:30px;list-style:none;margin:20px 0 0;padding:0;float:right}
+	.address-list li{margin-bottom:10px}
+	.address-list li i{background-color:#fff;-webkit-border-radius:50px;-moz-border-radius:50px;border-radius:50px;color:#333;height:30px;line-height:30px;text-align:center;width:30px;display:inline-block;margin-right:15px}
+		.fa{display:inline-block;font-style:normal;font-weight:normal;line-height:1;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}
+		.fa-map-marker:before{content:"\f041"}
+		.fa-phone:before{content:"\f095"}
+		.fa-envelope:before{content:"\f0e0"}
+	
+	.copyright,.address-list li,.address-list li a{color:#fff}
+/* //FOOTER */
+
+
+.row-fluid .span4{width:326px}
+
+		/* CONTAINER */
+		.row-fluid [class*="span"]{display:block;min-height:31px;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;float:left;margin-left:4.4776119402985%;*margin-left:4.4274111370857%}
+			.row-fluid .span12{width:100%;margin-left:4.4776119402985%;*margin-left:4.4274111370857%;*width:99.949799196787%}
+			.row-fluid [class*="span"]:first-child{margin-left:0}
+			
+			.side-service p,.side-service li{color:#fff;line-height:1.4em}
+			.side-service li{list-style:inside;margin-left:20px;padding:6px 0}
+				
+				/* First screen */
+				.span12{width:996px}
+				.column_container{position:relative}
+				.column_container h4{color:#fff;padding:6px 0 10px 0}
+				/* //First screen */
+						
+				/* Second screen */
+				.row-fluid .span8{width:58.7%;*width:58.7%;float:left}
+					
+					.block-child-cats{text-align:right;padding:0px 0px;position:relative;line-height:15px;margin:0px 0px 12px 0px;opacity:0.7;-webkit-transition:all 0.4s;-moz-transition:all 0.4s;-o-transition:all 0.4s;transition:all 0.4s}
+					.block-child-cats a{color:#999;margin:0px 0px 0px 26px;font-size:12px;text-transform:uppercase;font-weight:500}
+					.block-child-cats a:hover{color:#fff}
+
+					.row-fluid .span6{width:47.761194029851%;margin-left:4.4776119402985%;*margin-left:4.4274111370857%;*width:47.710993226638%}
+					.span6 .container{max-width:446px;margin:0px auto;width:100%;height:56.25%}
+					.td_mod5{margin-bottom:20px}
+					.td_mod5 a{text-decoration:none}
+					.td_mod5 .entry-thumb{max-width:100%;width:auto \9;vertical-align:middle;border:0;-ms-interpolation-mode:bicubic;margin-bottom:11px}
+					.td_mod5 h2.entry-title{display:inline}
+						h2.entry-title{font-size:20px;line-height:25px;color:#fff}
+						.td-post-text-excerpt{min-height:90px}
+						.td-post-text-excerpt p{color:#D8D8D8;font-size:0.85em;line-height:1.3em;padding-top:10px;font-weight:200}
+						.td_mod5 a:hover{text-decoration:underline}
+					
+					.row-fluid [class*="span"]:nth-child(odd){margin-left:0}
+					.td_mod3:before,.td_mod3:after{display:table;content:"";line-height:0}
+					.td_mod3:after{clear:both}
+					.td_mod3{margin-bottom:15px;min-height:106px !important}
+					.td_mod3 a{text-decoration:none}
+					.td_mod3 .small-thumb{width:100px;height:100px;float:left;margin-right:10px}
+						h3.entry-title{font-size:15px;line-height:21px;color:#fff;display:inline}
+						.td_mod3 a:hover{text-decoration:underline}
+					
+					/* All NEWS ON PAGE */
+					.row-fluid .all-news .even{margin-left:0}
+					.row-fluid .all-news .odd{margin-left:4.4776119402985%;*margin-left:4.4274111370857%;}
+				/* //Second screen */
+				
+				/* CONTACTS */
+				.cont{width:100%}
+				.fl{float:left}
+				.fr{float:right}
+				.cont .fl,.cont .fr{width:50%}
+				#content .fl p,#content .fr p{padding:0 20px 10px 20px}
+				/* //CONTACTS */
+				
+				/* SIDEBAR */
+				.row-fluid .span4{margin-left:30px;*margin-left:30px;float:right}
+						
+					h4.block-title,h4.block-title2{padding:0 0 10px 0}
+					
+					.block-title{border-bottom:2px solid #fff;text-transform:uppercase}
+					.block-title2{border-bottom:2px solid #ff0000;text-transform:uppercase}
+					
+					.block-title,.block-title2,.entry-title{position:relative;font-size:20px;margin:0px 0px 15px 0px;line-height:32px;font-weight:normal;height:33px}
+					.block-title span,.block-title2 span{z-index:1;padding:3px 10px 3px 10px}
+						
+				.side-adv{text-align:center}
+
+				.side-partners{display:inline-block}
+				/* //SIDEBAR */
+
+		/* //CONTAINER */
+
+/*********************
+CONTENT STYLE
+*********************/
+#content{font-size:15px;color:#fff;line-height:23px}
+h1.single-header,#content p,#content strong,#content li,#content b,#content label,#content p em{color:#fff}
+
+	/* IMG */
+	#content .size-thumbnail{/*width:auto*/}
+	#content .size-full{width:100%}
+	
+	img.alignleft{float:left;margin-right:23px;margin-top:6px;margin-bottom:6px}
+	img.aligncenter{clear:both;margin-top:12px;margin-top:0.857142857rem;margin-bottom:12px;margin-bottom:0.857142857rem;width:100%;height:auto}
+	.wp-post-image{width:100%;height:auto}
+	#content p img.size-medium{float:left;padding:0 2% 0 0;width:40%}
+
+	#content p,#content li,#content p em{letter-spacing:0.03em;font-size:0.94em;color:#BDBDBD}
+	#content p{text-align:justify;padding-bottom:10px}
+	#content ul{margin-left:20px;text-align:left;list-style:disc inside none;padding-bottom:10px}
+	#content li{list-style:disc inside none}
+	#content a{color:#ED1C24}
+	#content p img{/*width:100%;*/height:auto}
+	#content p em{font-style:italic}
+	#content h3{font-size:24px;color:#fff;margin:0 0 0.24em 0}
+	#content blockquote{width:90%;border-left:5px solid #4db2ec;padding-left:20px;margin:15px 0 15px 25px;font-size:14px;color:#777}
+	#content blockquote p{padding-bottom:0}
+	#content blockquote p,#content blockquote p b{color:#777}
+	#content blockquote:hover{border-left:5px solid #ed1c24;color:#fff}
+	#content blockquote:hover p,#content blockquote:hover p b{color:#fff}
+	
+	b.name{font-weight:400;font-size:1.3em}
+	
+	.format-image{border-bottom:2px solid #FF0000;margin-bottom:20px;position:relative}
+	.format-image .post-header,.format-image .post-overlay-title{bottom:7px;height:30%;position:absolute;width:100%}
+	.format-image .post-overlay-title a,.format-image .post-overlay-title h1{width:100%;display:inline-block}
+	.format-image .post-header{-moz-opacity:0.6;filter:alpha(opacity=60);opacity:0.6;z-index:1;background-color:#000}
+	.format-image .post-overlay-title{-moz-opacity:1;filter:alpha(opacity=100);opacity:1;z-index:9}
+	.format-image .post-overlay-title a{text-decoration:none}
+	.format-image .post-overlay-title h1:hover{text-decoration:underline}
+	.format-image .post-overlay-title h1{color:#FFF;font-size:22px;height:53%;padding:4%;letter-spacing:0.04em;text-align:center}
+	.format-image:hover .post-overlay-title h1{text-decoration:underline}
+
+	/* Share social */
+	.yandex-share{padding:10px 0 20px 0}
+
+	.nav-below{padding:31px 0px 68px 0px}
+		.nav-previous{float:left;width:48%}
+		.nav-previous a,.nav-next a{background-color:#FFF;color:#000;padding:10px;text-decoration:none}
+		.nav-previous a{float:left}
+		.nav-next a{float:right}
+		.nav-previous a:hover,.nav-next a:hover{color:#ED1C24}
+		.nav-next{float:right;text-align:right;width:48%}
+	
+	.fcbk_share{margin-top:40px}
+	
+	/* Eshelon */
+	.eshelon{display:inline-block;padding:0;width:100%;height:100%}
+	.eshelon .live{clear:both;display:block;width:50%;display:inline-block;float:left;margin-top:71px;text-align:center}
+	.eshelon .live span{background-color:red;color:#fff;padding:3px 6px;margin-right:10px}
+	.eshelon .eshelon-logo{float:left;width:50%;text-align:center}
+	#content .eshelon-logo img.size-full{width:auto}
+	
+	/* Map */
+	.map{height:422px}
+	#map-canvas{height:422px;width:100%}
+	.pdf{background-image:url('/img/file-pdf2.png');background-repeat:no-repeat;display:block;float:left;height:20px;padding:0 5px 0 0;width:20px}
+	
+	/* Error 404 */
+	#error404{margin-bottom:48px}
+		.search404{margin-top:10px}
+			input#s{width:79%;font-family:'caviar_dreamsregular','Arial';border:0;height:44px;padding:0 0 0 15px;font-size:19px;color:#9f9f9f}
+			input#searchsubmit{width:20%;color:#fff;background-color:#1FA1DB;border:0;text-align:center;font-size:21px;cursor:pointer;height:45px}
+			input#searchsubmit:hover{background-color:#FF0000}
+
+	/* Service */
+	#service h4,#tire-service h4{font-size:1.3em}
+	/* //Service */
+
+/* Sidebar Banners */
+.content-outer{margin:0 auto;width:960px}
+#ads_right,#ads_left{padding-top:100px;position:fixed}
+#ads_left{float:left;margin-left:-159px}
+#ads_right{float:right;margin-left:939px}
+.content-outer p{margin:0 0 10px}
+#ads_right .rightSideAdvert,#ads_left .leftSideAdvert{display:block;width:181px;height:358px;text-indent:100%;white-space:nowrap;overflow:hidden}

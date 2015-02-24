@@ -1,0 +1,366 @@
+/* main column & sidebar */
+.row-fluid{width:100%;*zoom:1}
+	.row-fluid:before,.row-fluid:after{display:table;content:"";line-height:0}
+	.row-fluid:after{clear:both}
+
+/* Desktops and laptops ----------- */
+/*@media screen and (max-width: 1426px) and (min-width: 1024px) {*/
+@media only screen and (min-width: 1024px) {
+	#outer-wrap{
+		z-index:100;
+		position:relative;
+		overflow:hidden;
+		width:100%;
+		background:
+		linear-gradient(27deg, #151515 5px, transparent 5px) 0 5px,
+		linear-gradient(207deg, #151515 5px, transparent 5px) 10px 0px,
+		linear-gradient(27deg, #222 5px, transparent 5px) 0px 10px,
+		linear-gradient(207deg, #222 5px, transparent 5px) 10px 5px,
+		linear-gradient(90deg, #1b1b1b 10px, transparent 10px),
+		linear-gradient(#1d1d1d 25%, #1a1a1a 25%, #1a1a1a 50%, transparent 50%, transparent 75%, #242424 75%, #242424);
+		background-color:#131313;
+		background-size:20px 20px;
+	}
+	
+	/* CONTENT AREA */
+	#inner-wrap{min-height:748px}
+	#inner-wrap,
+	#footer,
+	.inner-wrap{margin:0 auto;max-width:1216px;position:relative;width:96%;padding:0 20px;background-color:#000}
+		
+	.maincolumn,.sidebar{float:left}
+	.maincolumn{width:65.4%;padding-right:30px}
+	.sidebar{width:34.5%}
+	.max640{display:none !important}
+	
+		/* TOP Navigation menu in line */
+		#top-nav{border-bottom:1px solid #999;margin-bottom:10px;background-color:#000;position:fixed;z-index:999;width:100%}
+		#top-nav ul li a{color:#FFF;display:block;padding:10px 15px 8px 15px;text-transform:uppercase;text-decoration:none;font-weight:200;border-bottom:4px solid #000}
+		#top-nav ul li a,#top-nav ul.sub-menu li a{font-size:1.1em}
+		#top-nav ul li a:hover{color:#999;border-bottom:4px solid #ff0000}
+		/* //TOP Navigation menu in line */
+	
+		/* HEADER */
+		.header{width:100%;z-index:999;height:122px;display:inline-block;width:100%;margin-bottom:5px;padding-top:45px}
+			
+			.logo{width:296px;float:left;padding:0 15px 0 0;position:relative}
+				.site-title{background-image:url('/img/logo2.png');float:left;display:block;display:block;width:250px;height:80px}
+				.site-title h1{display:none}
+			
+			.head-right{float:right;padding:6px 0 0 0}
+				.phone-head-800{display:none}
+				.phone-head{color:#fff;padding:8px 0 0 10px;font-weight:200;float:right;font-size:1.4em}
+		/* //HEADER */
+		
+		/* SLIDER */
+		.ei-slider-large a{display:block}
+		.ei-slider-large li h1{padding:10px;bottom:20px;font-size:1.2em;position:absolute;left:0;color:#fff;background-color:#000;display:inline-block;font-weight:500}
+		/* //SLIDER */
+	
+		h1.single-header{margin:0 0px 7px 0px;line-height:40px;font-size:34px;font-weight:normal;-ms-word-wrap:break-word;word-wrap:break-word}
+		
+	/* //CONTENT AREA */
+
+	.block_wrap{padding-bottom:39px;min-width:326px}
+		.side-partners li{float:left;text-align:center;width:50%}
+		
+	.wpb_wrapper{position:relative;top:0px;left:0px;overflow:hidden;z-index:1;width:100%;height:auto;margin-bottom:20px}
+	
+	.grid-wrap{padding:69px 0 27px 0;display:inline-block;width:100%}
+
+	/* Service */
+	#service{float:left;margin:0 10px 20px 10px;width:47.8%}
+	#service tr.thead td,#tire-service tr.thead td{background-color:#ccc;color:#000}
+	#service td,#tire-service td{padding:0 4px}
+	#service tr.odd td,#tire-service tr.odd td{background-color:#999;color:#000}
+	
+	#tire-service{width:100%;margin:0 10px 20px 10px}
+	/* //Service */
+}
+
+@media only screen and (max-width: 1023px) and (min-width: 801px) {
+	#outer-wrap{
+		z-index:100;
+		position:relative;
+		overflow:hidden;
+		width:100%;
+		background:
+		linear-gradient(27deg, #151515 5px, transparent 5px) 0 5px,
+		linear-gradient(207deg, #151515 5px, transparent 5px) 10px 0px,
+		linear-gradient(27deg, #222 5px, transparent 5px) 0px 10px,
+		linear-gradient(207deg, #222 5px, transparent 5px) 10px 5px,
+		linear-gradient(90deg, #1b1b1b 10px, transparent 10px),
+		linear-gradient(#1d1d1d 25%, #1a1a1a 25%, #1a1a1a 50%, transparent 50%, transparent 75%, #242424 75%, #242424);
+		background-color:#131313;
+		background-size:20px 20px;
+	}
+	
+	/* CONTENT AREA */
+	#inner-wrap{min-height:748px}
+	#inner-wrap,
+	#footer,
+	.inner-wrap{margin:0 auto;max-width:1216px;position:relative;width:96%;padding:0 20px;background-color:#000}
+	
+	.maincolumn,.sidebar{float:left}
+	.maincolumn{width:65.4%;padding-right:30px}
+	.sidebar{width:34.5%}
+	.max640{display:none !important}
+	
+		/* TOP Navigation menu in line */
+		#top-nav{border-bottom:1px solid #999;margin-bottom:10px;background-color:#000;position:fixed;z-index:999;width:100%}
+		#top-nav ul li a{color:#FFF;display:block;padding:10px 10px 8px 10px;text-transform:uppercase;text-decoration:none;font-weight:200;border-bottom:4px solid #000}
+		#top-nav ul li a,#top-nav ul.sub-menu li a{font-size:0.9em}
+		#top-nav ul li a:hover{color:#999;border-bottom:4px solid #ff0000}
+		/* //TOP Navigation menu in line */
+	
+		/* HEADER */
+		.header{width:100%;z-index:999;height:122px;display:inline-block;width:100%;margin-bottom:5px;padding-top:45px}
+			
+			.logo{width:296px;float:left;padding:0 15px 0 0;position:relative}
+				.site-title{background-image:url('/img/logo2.png');float:left;display:block;display:block;width:250px;height:80px}
+				.site-title h1{display:none}
+			
+			.head-right{float:right;padding:6px 0 0 0}
+				.phone-head-800{display:none}
+				.phone-head{color:#fff;padding:10px 0;font-weight:200;float:right}
+		/* //HEADER */
+		
+		/* SLIDER */
+		.ei-slider-large a{display:block}
+		.ei-slider-large li h1{padding:10px;bottom:20px;font-size:1.2em;position:absolute;left:0;color:#fff;background-color:#000;display:inline-block;font-weight:500}
+		/* //SLIDER */
+		
+		h1.single-header{margin:0 0px 7px 0px;line-height:40px;font-size:34px;font-weight:normal;-ms-word-wrap:break-word;word-wrap:break-word}
+	
+	/* //CONTENT AREA */
+	
+	.wpb_wrapper{position:relative;top:0px;left:0px;overflow:hidden;z-index:1;width:100%;height:483px;margin-bottom:20px}
+	
+	.grid-wrap{padding:20px 0;display:inline-block;width:100%}
+
+	/* Service */
+	#service{float:left;margin:0 10px 20px 10px;width:47.7%}
+	#service tr.thead td,#tire-service tr.thead td{background-color:#ccc;color:#000}
+	#service td,#tire-service td{padding:0 4px}
+	#service tr.odd td,#tire-service tr.odd td{background-color:#999;color:#000}
+	
+	#tire-service{width:100%;margin:0 10px 20px 10px}
+	/* //Service */
+}
+
+@media only screen and (max-width: 800px) and (min-width: 641px) {
+	.maincolumn{width:100%;margin:1% 0 1% 0%}
+	.sidebar{width:100%;float:none}
+	.max640{display:none !important}
+	
+	.footer_column-left{display:none}
+
+		/* TOP Navigation menu in line */
+		#top-nav{border-bottom:1px solid #999;margin-bottom:10px;background-color:#000;position:fixed;z-index:999;width:100%}
+		#top-nav ul li a{color:#FFF;display:block;padding:10px 8px 8px 8px;text-transform:uppercase;text-decoration:none;font-weight:200;border-bottom:4px solid #000}
+		#top-nav ul li a,#top-nav ul.sub-menu li a{font-size:0.9em}
+		#top-nav ul li a:hover{color:#999;border-bottom:4px solid #ff0000}
+		/* //TOP Navigation menu in line */
+	
+		/* HEADER */
+		.header{width:100%;z-index:999;height:122px;display:inline-block;width:100%;margin-bottom:5px;padding-top:45px}
+			
+			.logo{width:296px;float:left;padding:0 15px 0 0;position:relative}
+				.site-title{background-image:url('/img/logo2.png');float:left;display:block;display:block;width:250px;height:80px}
+				.site-title h1{display:none}
+			
+			.head-right{float:right;padding:6px 0 0 0}
+				.phone-head{display:none}
+				.social_type24{display:none}
+				.phone-head-800{color:#fff;padding:23px 0 0 10px;font-weight:200;float:right;font-size:1.4em}
+		/* //HEADER */
+		
+		/* SLIDER */
+		.ei-slider-large a{display:block}
+		.ei-slider-large li h1{padding:10px;bottom:20px;font-size:1.2em;position:absolute;left:0;color:#fff;background-color:#000;display:inline-block;font-weight:500}
+		/* //SLIDER */
+		
+		h1.single-header{margin:0 0px 7px 0px;line-height:40px;font-size:34px;font-weight:normal;-ms-word-wrap:break-word;word-wrap:break-word}
+	
+	#outer-wrap{background-color:#131313}
+	
+	.inner-wrap,#inner-wrap,#footer{width:100% !important;margin:0 auto !important}
+	.menu-top-menu-container,#inner-wrap,#footer{padding:0 10px !important}
+	
+	#inner-wrap{min-height:0 !important}
+	
+	.wpb_wrapper{position:relative;top:0px;left:0px;overflow:hidden;z-index:1;width:100%;height:auto;margin-bottom:20px}
+		
+	.small6news{display:none}
+
+	/* Service */
+	#service{float:none;margin:0 10px 20px 10px;width:96%}
+	#service tr.thead td,#tire-service tr.thead td{background-color:#ccc;color:#000}
+	#service td,#tire-service td{padding:0 4px}
+	#service tr.odd td,#tire-service tr.odd td{background-color:#999;color:#000}
+	
+	#tire-service{width:100%;margin:0 10px 20px 10px}
+	/* //Service */
+	
+	#footer .grid-wrap{padding:10px 0 17px 0}
+	#footer #menuLogo{display:none}
+	#footer .footer_column-right{width:100%;margin:0}
+	.span4 .address-list{float:none}
+}
+
+@media only screen and (max-width: 1023px) {
+	.max640{display:none !important}
+	
+	.block_wrap{width:100%;padding-bottom:10px}
+		.side-partners li{float:left;text-align:center;width:auto}
+}
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 514px) and (orientation:portrait) {
+	.side-partners li{float:left;text-align:center;width:50%}
+		.side-partners li a img{width:70%}
+}
+
+
+
+@media only screen and (max-width: 640px) and (orientation:portrait) /* 40em */
+{
+	.maincolumn{width:100%;margin:1% 0 1% 0%}
+	.sidebar{width:100%;float:none}
+	.max640{display:block !important}
+	.side-max640{margin-top:20px}
+	
+	.menu-top-menu-container,#inner-wrap,#footer{padding:0 10px}
+	
+	/* TOP Navigation menu in line */
+	#top-nav{border-bottom:1px solid #999;margin-bottom:10px;background-color:#000;position:fixed;z-index:999;width:100%}
+	#top-nav ul li a{color:#FFF;display:block;padding:10px 8px 8px 8px;text-transform:uppercase;text-decoration:none;font-weight:200;border-bottom:4px solid #000}
+	#top-nav ul li a,#top-nav ul.sub-menu li a{font-size:0.9em}
+	#top-nav li#menu-button a{border-bottom:4px solid #000}
+	#top-nav li#menu-button a:hover{color:#999;border-bottom:4px solid #ff0000}
+	#top-nav ul li a:hover{color:#999;border-bottom:4px solid #000}
+	/* //TOP Navigation menu in line */
+	
+	/* HEADER */
+	.header{width:100%;z-index:999;height:6.5em;display:inline-block;width:100%;margin-bottom:5px;padding-top:47px}
+		
+		.logo{display:inline-block;padding:0;position:relative;width:100%}
+			.site-title{background-image:url('/img/logo2.png');float:left;display:block;display:block;width:100%;height:4em;background-position:center center;background-repeat:no-repeat;background-size:50%}
+			.site-title h1{display:none}
+		
+		.head-right{display:none}
+			.phone-head{display:none}
+			.social_type24{display:none}
+			.phone-head-800{color:#fff;padding:26px 0 0 10px;font-weight:200;float:right;font-size:1.4em}
+	/* //HEADER */
+	
+	/* SLIDER */
+	.ei-slider{position:relative;margin:0 auto;width:100%;height:auto}
+	.ei-slider-large a{display:block}
+	.ei-slider-large li h1{padding:10px;bottom:80px;font-size:1.2em;position:relative;left:0;color:#fff;background-color:#000;display:inline-block;font-weight:500}
+	/* //SLIDER */
+	
+	#second-screen,noindex{display:none}
+	
+	/* CONTENT */
+	h1.single-header{margin:0 0px 7px 0px;line-height:1.2em;font-size:1.4em;font-weight:normal;-ms-word-wrap:break-word;word-wrap:break-word}
+	#nav-below:before,#nav-below:after{content:" ";display:inline-block;height:2.2em;margin-bottom:20px}
+	.column1{display:none}
+	#content p img{width:100% !important;height:auto}
+	/* //CONTENT */
+	
+	/* Service */
+	#service{float:none;margin:0 10px 20px 10px;width:96%}
+	#service tr.thead td,#tire-service tr.thead td{background-color:#ccc;color:#000}
+	#service td,#tire-service td{padding:0 4px}
+	#service tr.odd td,#tire-service tr.odd td{background-color:#999;color:#000}
+	
+	#tire-service{width:100%;margin:0 10px 20px 10px}
+	/* //Service */
+	
+	#footer .grid-wrap{padding:10px 0 17px 0}
+	#footer #menuLogo{display:none}
+	#footer .footer_column-right{width:100%;margin:0}
+	.footer_column-left{display:none}
+	.span4 .address-list{float:none}
+}
+
+/* iPhone 4, 5, 6, 6+ (landscape) ----------- */
+@media only screen and (min-device-width:320px) and (max-device-width:759px) and (orientation:landscape) and (-webkit-min-device-pixel-ratio:2) {
+	
+	.max640{display:block !important;margin-top:1.4em}
+	.sidebar{width:100%;float:none;margin-bottom:1.4em}
+	
+	/* TOP Navigation menu in line */
+	#top-nav{border-bottom:1px solid #999;margin-bottom:10px;background-color:#000;position:fixed;z-index:999;width:100%}
+	#top-nav ul li a{color:#FFF;display:block;padding:10px 8px 8px 8px;text-transform:uppercase;text-decoration:none;font-weight:200;border-bottom:4px solid #000}
+	#top-nav ul li a,#top-nav ul.sub-menu li a{font-size:0.9em}
+	#top-nav li#menu-button a{border-bottom:4px solid #000}
+	#top-nav li#menu-button a:hover{color:#999;border-bottom:4px solid #ff0000}
+	#top-nav ul li a:hover{color:#999;border-bottom:4px solid #000}
+	/* //TOP Navigation menu in line */
+	
+	/* HEADER */
+	.header{width:100%;z-index:999;height:7em;display:inline-block;width:100%;margin-bottom:5px;padding-top:4em}
+		
+		.logo{width:60%;float:left;padding:0 15px 0 0;position:relative}
+			.site-title{background-image:url('/img/logo2.png');background-size:50%;background-repeat:no-repeat;float:left;display:block;display:block;width:100%;height:80px}
+			.site-title h1{display:none}
+		
+		.head-right{float:right;padding:6px 0 0 0}
+			.phone-head{display:none}
+			.social_type24{display:none}
+			.phone-head-800{color:#fff;padding:0 6px 0 4px;font-weight:200;float:right;font-size:1.4em}
+	/* //HEADER */
+	
+	/* 2 BIG NEWS */
+	.row-fluid .span6{width:47.761194029851%;margin-left:4.4776119402985%;*margin-left:4.4274111370857%;*width:47.710993226638%}
+	.td_mod5{margin-bottom:20px}
+	.td_mod5 a{text-decoration:none}
+	.td_mod5 .entry-thumb{max-width:100%;width:auto \9;max-height:159px;vertical-align:middle;border:0;-ms-interpolation-mode:bicubic;margin-bottom:11px}
+	.td_mod5 h2.entry-title{display:inline}
+		h2.entry-title{font-size:20px;line-height:25px;color:#fff}
+		.td-post-text-excerpt{min-height:90px}
+		.td-post-text-excerpt p{color:#D8D8D8;font-size:0.85em;line-height:1.3em;padding-top:10px;font-weight:200}
+		.td_mod5 a:hover{text-decoration:underline}
+	/* //2 BIG NEWS */
+	
+	.small6news{display:none}
+	
+	/* CONTENT */
+	#content p img{width:100%;height:auto}
+	/* //CONTENT */
+	
+	.side-partners li{float:left;text-align:center;width:30%}
+		.side-partners li a img{width:80%}
+	
+	/* Service */
+	#service{float:none;margin:0 10px 20px 10px;width:96%}
+	#service tr.thead td,#tire-service tr.thead td{background-color:#ccc;color:#000}
+	#service td,#tire-service td{padding:0 4px}
+	#service tr.odd td,#tire-service tr.odd td{background-color:#999;color:#000}
+	
+	#tire-service{width:100%;margin:0 10px 20px 10px}
+	/* //Service */
+	
+	/* FOOTER */
+	#footer .grid-wrap{padding:10px 0 17px 0}
+	#footer #menuLogo{display:none}
+	#footer .footer_column-left{display:none}
+	#footer .footer_column-right{width:100%;margin:0}
+	.span4 .address-list{float:none}
+	/* //FOOTER */
+}
+
+/* iPads (landscape) ----------- */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) {
+/* Styles */
+}
