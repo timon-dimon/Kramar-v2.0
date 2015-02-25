@@ -103,6 +103,9 @@
 					<span class="social-icon-wrap24">
 						<a href="https://twitter.com/Kramar_sport" target="_blank"><span class="social-s1-24 s-s-24-twitter"></span></a>
 					</span>
+					<span class="social-icon-wrap24">
+						<a href="http://vk.com/kramarmotorsport" target="_blank"><span class="social-s1-24 s-s-24-vk"></span></a>
+					</span>
 				</div>
 				
 			</div>
